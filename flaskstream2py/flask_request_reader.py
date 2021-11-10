@@ -14,15 +14,17 @@ class FlaskRequestReader(SourceReader):
     >>> from flaskstream2py.flask_request_reader import FlaskRequestReader
     >>> app = Flask(__name__)
 
+    >>> def toy_callback(b: bytes, n_bytes_to_show=10):
+    ...     print(f"Read {len(b)} bytes. First five {b[:n_bytes_to_show]}")
+
     >>> @app.route('/', methods=['POST'])
     ... def handle_stream():
     ...     reader = FlaskRequestReader()
-    ...     reader.open()
-    ...     try:
+    ...     with reader.open():
     ...         while True:
     ...             chk = reader.read()
-    ...     except:
-    ...         reader.close()
+    ...             toy_callback(chk)
+
     """
 
     _request = None
