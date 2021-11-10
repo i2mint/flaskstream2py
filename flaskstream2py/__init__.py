@@ -1,3 +1,3 @@
 """Exports FlaskRequestReader"""
 
-from .flask_request_reader import FlaskRequestReader
+from flaskstream2py.flask_request_reader import FlaskRequestReader
