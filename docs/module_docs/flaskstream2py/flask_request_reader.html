@@ -4,7 +4,7 @@
   <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>flaskstream2py.flask_request_reader &mdash; flaskstream2py 0.1.1 documentation</title><link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <title>flaskstream2py.flask_request_reader &mdash; flaskstream2py 0.1.2 documentation</title><link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="../../_static/copybutton.css" type="text/css" />
       <link rel="stylesheet" href="../../_static/graphviz.css" type="text/css" />
@@ -101,7 +101,8 @@ that the flask.request context is available.</p>
 <dt id="flaskstream2py.flask_request_reader.FlaskRequestReader.close">
 <code class="sig-name descname">close</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/flaskstream2py/flask_request_reader.html#FlaskRequestReader.close"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#flaskstream2py.flask_request_reader.FlaskRequestReader.close" title="Permalink to this definition">¶</a></dt>
 <dd><p>Close and clean up source reader.
-Will be called when StreamBuffer stops or if an exception is raised during read and append loop.</p>
+Will be called when StreamBuffer stops or if an exception is raised during read and append
+loop.</p>
 </dd></dl>
 
 <dl class="py method">
@@ -132,8 +133,8 @@ Will be called when StreamBuffer stops or if an exception is raised during read 
 <dl class="py method">
 <dt id="flaskstream2py.flask_request_reader.FlaskRequestReader.open">
 <code class="sig-name descname">open</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/flaskstream2py/flask_request_reader.html#FlaskRequestReader.open"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#flaskstream2py.flask_request_reader.FlaskRequestReader.open" title="Permalink to this definition">¶</a></dt>
-<dd><p>Set up source to be read and set some source info affected by open time like the time of open.
-Will be called in StreamBuffer immediately before first read.</p>
+<dd><p>Set up source to be read and set some source info affected by open time like the time of
+open. Will be called in StreamBuffer immediately before first read.</p>
 </dd></dl>
 
 <dl class="py method">
