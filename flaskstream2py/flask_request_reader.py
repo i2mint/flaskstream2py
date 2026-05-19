@@ -44,7 +44,7 @@ class FlaskRequestReader(SourceReader):
 
         :return: dict
         """
-        _info = {'chk_size': self._chk_size}
+        _info = {"chk_size": self._chk_size}
         return _info
 
     def key(self, data):
@@ -58,7 +58,7 @@ class FlaskRequestReader(SourceReader):
             self._stream = request.stream
         except:
             raise ModuleNotFoundError(
-                'FlaskRequestReader requires flask to be installed'
+                "FlaskRequestReader requires flask to be installed"
             )
 
     def close(self):
