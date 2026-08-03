@@ -10,18 +10,43 @@ version = "0.1.6"
 description = "stream2py interface to flask"
 readme = "README.md"
 requires-python = ">=3.10"
-keywords = []
+license = "Apache-2.0"
+license-files = [
+    "LICENSE",
+]
+keywords = [
+    "flask",
+    "stream2py",
+    "streaming",
+    "http",
+    "source-reader",
+    "data-streams",
+    "edge-device",
+]
 authors = []
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Framework :: Flask",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Internet :: WWW/HTTP",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
 dependencies = [
     "flask",
     "stream2py",
 ]
 
-[project.license]
-text = "Apache-2.0"
-
 [project.urls]
 Homepage = "https://github.com/i2mint/flaskstream2py"
+Documentation = "https://i2mint.github.io/flaskstream2py/"
+Repository = "https://github.com/i2mint/flaskstream2py"
+Issues = "https://github.com/i2mint/flaskstream2py/issues"
 
 [project.optional-dependencies]
 dev = [
