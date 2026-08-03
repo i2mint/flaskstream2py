@@ -76,6 +76,7 @@ convention = "google"
 minversion = "6.0"
 testpaths = [
     "tests",
+    "flaskstream2py",
 ]
 doctest_optionflags = [
     "NORMALIZE_WHITESPACE",
