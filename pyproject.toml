@@ -23,7 +23,7 @@ keywords = [
     "data-streams",
     "edge-device",
 ]
-authors = []
+authors = [{ name = "Thor Whalen" }]
 classifiers = [
     "Development Status :: 3 - Alpha",
     "Intended Audience :: Developers",
