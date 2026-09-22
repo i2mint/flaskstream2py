@@ -1,0 +1,13 @@
+﻿flaskstream2py
+==============
+
+.. automodule:: flaskstream2py
+
+   
+.. rubric:: Modules
+
+.. autosummary::
+   :toctree:
+   :recursive:
+
+   flask_request_reader

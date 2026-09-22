@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "built_at": "2026-09-22T14:35:13Z",
+  "package": {
+    "name": "flaskstream2py",
+    "version": "0.1.7",
+    "display_name": "flaskstream2py",
+    "source": "pyproject.toml"
+  },
+  "git": {
+    "available": true,
+    "commit": "b2ed87d40f0b3dad2c871de4d065a5305e7a8a19",
+    "short_commit": "b2ed87d",
+    "branch": "master",
+    "tags": [],
+    "dirty": false,
+    "remote_url": "https://github.com/i2mint/flaskstream2py",
+    "commit_url": "https://github.com/i2mint/flaskstream2py/commit/b2ed87d40f0b3dad2c871de4d065a5305e7a8a19",
+    "error": null
+  },
+  "ci": {
+    "provider": "github",
+    "repository": "i2mint/flaskstream2py",
+    "sha": "b2ed87d40f0b3dad2c871de4d065a5305e7a8a19",
+    "sha_in_history": true,
+    "ref": "refs/heads/master",
+    "ref_name": "master",
+    "run_id": "35741119254",
+    "run_url": "https://github.com/i2mint/flaskstream2py/actions/runs/35741119254",
+    "server_url": "https://github.com"
+  },
+  "tools": {
+    "epythet": "0.2.12",
+    "sphinx": "9.1.0",
+    "docutils": "0.22.4",
+    "python": "3.12.14"
+  },
+  "config": {
+    "theme": "auto",
+    "html_theme": "shibuya",
+    "accent": "#3b6600",
+    "mode": "auto",
+    "api_generator": "autosummary",
+    "ignore": [
+      "tests/",
+      "scrap/",
+      "examples/"
+    ],
+    "agent_outputs": true,
+    "aggregates": [
+      "md"
+    ],
+    "ai_artifacts": true,
+    "provenance": true,
+    "docs_dir": "docsrc"
+  },
+  "site": {
+    "modules_documented": 2,
+    "objects_documented": 6
+  },
+  "pypi": {
+    "checked": true,
+    "latest": "0.1.7",
+    "relation": "same",
+    "error": null
+  },
+  "reproduce": "git clone https://github.com/i2mint/flaskstream2py && cd flaskstream2py\ngit checkout b2ed87d40f0b3dad2c871de4d065a5305e7a8a19\npip install \"epythet==0.2.12\"\nepythet quickstart . --ignore tests/ scrap/ examples/",
+  "warnings": [],
+  "alignment": {
+    "aligned": true,
+    "notes": []
+  }
+}

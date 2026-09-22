@@ -1,0 +1,20 @@
+# flaskstream2py
+
+> stream2py interface to flask
+
+
+## Pages
+
+- [flaskstream2py](index.html.md): stream2py interface for incoming HTTP requests with Flask.
+- [API reference](api.html.md): | &#96;flaskstream2py&#96;   | Exports FlaskRequestReader   |
+- [flaskstream2py](_autosummary/flaskstream2py.html.md): Exports FlaskRequestReader
+- [flaskstream2py.flask_request_reader](_autosummary/flaskstream2py.flask_request_reader.html.md): FlaskRequest Source
+- [About this build](about-this-build.html.md): This documentation was built on &#42;&#42;2026-09-22 14:35 UTC&#42;&#42; from commit &lt;a href="https://github.com/i2m...
+
+## Optional
+
+- [flaskstream2py.md](flaskstream2py.md): Complete documentation in a single file.
+
+## Build
+
+- [build_info.json](build_info.json): build provenance (commit, version, tool versions, whether the docs match the package)
